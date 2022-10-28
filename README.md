@@ -43,26 +43,30 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=0.8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title></title>
 		<style>
 			body{
 				background-color: #000;/* 网页背景颜色 */
-				
 			}
 			/* 位置 */
+			#box404{
+				display: flex;
+				flex-direction: row;
+				
+			}
 			.box4{
-				transform: translate(20px,10px);
+				transform: translate(20px,40px);
 				position: inherit;
 				float: left;
 			} 
 			.box0{
-				transform: translate(60px,10px);
+				transform: translate(40px,40px);
 				position: inherit;
 				float: left;
 			} 
 			.box4-2{
-				transform: translate(100px,10px);
+				transform: translate(60px,40px);
 				position: inherit;
 				float: left;
 			} 
@@ -297,6 +301,7 @@
 		</style>
 	</head>
 	<body>
+		<div id="box404">
 		<!-- 4 -->
 		<div class="box4">
 		<div id="box1"></div>
@@ -319,7 +324,7 @@
 		<div id="box5-img1"></div>
 		</div>
 		<!-- 第二个4结束 -->
-		
+		</div>
 	</body>
 </html>
 ```
